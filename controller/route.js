@@ -9,3 +9,6 @@ exports.hc = (req, res, next) => {
 
     res.status(200).json({ status: 200, message: "Succeed Message" })
 }
+exports.hc1 = (req, res, next) => {
+    res.status(200).json({ status: 200, message: "Success Response" })
+}
